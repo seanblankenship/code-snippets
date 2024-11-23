@@ -2,7 +2,7 @@
 
 /**
  * Display an acf field
- *   
+ *
  * @param   $atts   array   The shortcode attributes
  *
  * @param   $atts   array   The shortcode attributes
@@ -14,7 +14,7 @@ function appnet_acf_shortcode( $atts ) {
 		array(
 			'field'        => '',    // string   acf field name
 			'options'      => false, // bool     [optional] is this on an options page? will override post_id
-      		'link'         => true,  // bool     [optional] should the field be a link; defaults to true and checks if email or phone number; false will display only value
+			'link'         => true,  // bool     [optional] should the field be a link; defaults to true and checks if email or phone number; false will display only value
 			'post_id'      => false, // mixed    [optional] post id will be overwritten if there is an options page
 			'format_value' => true,  // bool     [optional] whether to apply formatting logic
 			'escape_html'  => false, // bool     [optional] return an escaped HTML safe version of the field value
@@ -70,4 +70,3 @@ function set_to_boolean( $value, $field = 'your field' ) {
 	}
 	return (bool) $value;
 }
-
