@@ -1,0 +1,140 @@
+[
+    {
+        "key": "group_66fd7a3c18a71",
+        "title": "Extra Community Information",
+        "fields": [
+            {
+                "key": "field_66fd7a3d0b009",
+                "label": "Market Report",
+                "name": "market_report",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Other": {}
+                },
+                "default_value": false,
+                "return_format": "value",
+                "multiple": 0,
+                "allow_null": 0,
+                "allow_in_bindings": 1,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "community"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "post_type_66f57c81e13f6",
+        "title": "Communities",
+        "menu_order": 0,
+        "active": true,
+        "post_type": "community",
+        "advanced_configuration": true,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "Communities",
+            "singular_name": "Community",
+            "menu_name": "Communities",
+            "all_items": "All Communities",
+            "edit_item": "Edit Community",
+            "view_item": "View Community",
+            "view_items": "View Communities",
+            "add_new_item": "Add New Community",
+            "add_new": "Add New Community",
+            "new_item": "New Community",
+            "parent_item_colon": "Parent Community:",
+            "search_items": "Search Communities",
+            "not_found": "No communities found",
+            "not_found_in_trash": "No communities found in Trash",
+            "archives": "Community Archives",
+            "attributes": "Community Attributes",
+            "featured_image": "",
+            "set_featured_image": "",
+            "remove_featured_image": "",
+            "use_featured_image": "",
+            "insert_into_item": "Insert into community",
+            "uploaded_to_this_item": "Uploaded to this community",
+            "filter_items_list": "Filter communities list",
+            "filter_by_date": "Filter communities by date",
+            "items_list_navigation": "Communities list navigation",
+            "items_list": "Communities list",
+            "item_published": "Community published.",
+            "item_published_privately": "Community published privately.",
+            "item_reverted_to_draft": "Community reverted to draft.",
+            "item_scheduled": "Community scheduled.",
+            "item_updated": "Community updated.",
+            "item_link": "Community Link",
+            "item_link_description": "A link to a community."
+        },
+        "description": "",
+        "public": true,
+        "hierarchical": true,
+        "exclude_from_search": false,
+        "publicly_queryable": true,
+        "show_ui": true,
+        "show_in_menu": true,
+        "admin_menu_parent": "",
+        "show_in_admin_bar": true,
+        "show_in_nav_menus": true,
+        "show_in_rest": true,
+        "rest_base": "",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Posts_Controller",
+        "menu_position": "",
+        "menu_icon": {
+            "type": "dashicons",
+            "value": "dashicons-admin-multisite"
+        },
+        "rename_capabilities": false,
+        "singular_capability_name": "post",
+        "plural_capability_name": "posts",
+        "supports": [
+            "title",
+            "editor",
+            "thumbnail",
+            "custom-fields"
+        ],
+        "taxonomies": "",
+        "has_archive": true,
+        "has_archive_slug": "communities",
+        "rewrite": {
+            "permalink_rewrite": "post_type_key",
+            "with_front": "1",
+            "feeds": "0",
+            "pages": "1"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "can_export": true,
+        "delete_with_user": false,
+        "register_meta_box_cb": "",
+        "enter_title_here": ""
+    }
+]
