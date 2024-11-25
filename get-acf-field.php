@@ -1,7 +1,8 @@
 <?php
 
 /**
- * Display an acf field
+ * Creates a shortcode that will get values from options pages which the built-in acf_field shortcode does not allow for
+ * by default, sets emails and phone numbers to links with the option to set to false if you prefer only a value
  *
  * @param   $atts   array   The shortcode attributes
  * @return          string  Returns the field value as a string with / without a link
