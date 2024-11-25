@@ -4,8 +4,6 @@
  * Display an acf field
  *
  * @param   $atts   array   The shortcode attributes
- *
- * @param   $atts   array   The shortcode attributes
  * @return          string  Returns the field value as a string with / without a link
  */
 add_shortcode( 'appnet_acf', 'appnet_acf_shortcode' );
